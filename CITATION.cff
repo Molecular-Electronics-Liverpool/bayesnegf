@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Morris"
+  given-names: "James M. F."
+  orcid: "https://orcid.org/0009-0000-2333-3973"
+  email: "jamesmo@liverpool.ac.uk"
+- family-names: "Vezzoli"
+  given-names: "Andrea"
+  email: "Andrea.Vezzoli@liverpool.ac.uk"
+  orcid: "https://orcid.org/0000-0002-8059-0113"
+title: "bayesnegf: A Single-Molecule Bayesian Inference Quantum Transport Package"
+version: 0.0.0
+doi: 10.5281/zenodo.1234 # Placeholder doi
+date-released: 2026-11-18
+url: "https://github.com/Molecular-Electronics-Liverpool/bayesnegf"
