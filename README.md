@@ -1,5 +1,7 @@
 # BayesNEGF
 
+[![DOI](https://zenodo.org/badge/1459965894.svg)](https://doi.org/10.5281/zenodo.24379288)
+
 ## About
 
 Bayesian inference on single-molecule electronics data for quantum transport. Uses dynamic nested sampling (dynesty) and non-equilibrium Green's functions (NEGF) to parameterise transport models and extract transmission spectra.
