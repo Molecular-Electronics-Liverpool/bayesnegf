@@ -4,15 +4,18 @@
 
 Bayesian inference on single-molecule electronics data for quantum transport. Uses dynamic nested sampling (dynesty) and non-equilibrium Green's functions (NEGF) to parameterise transport models and extract transmission spectra.
 
+
 ### Current Version
 
 Barebones implementation in v0.1.0 similar to the initial scripts found in our recent work.  
 Plans to extend this to a more user friendly general framework in the future are underway.
 This codebase currently only supports the SSH tight-binding model.
 
+
 ## How to Cite
 
 If you use bayesnegf or its code, please cite according to the CITATION.cff file.
+
 
 ## Installation
 
@@ -23,6 +26,20 @@ git clone https://github.com/Molecular-Electronics-Liverpool/bayesnegf.git
 cd bayesnegf
 pip install .
 ```
+
+
+## Repository Structure & Modules
+
+| Module | Description |
+| --- | --- |
+| src/bayesnegf/transmission.py | SSH Hamiltonian, Stark shifts, WBL self-energies, NEGF transmission function calculation. |
+| src/bayesnegf/iv.py | Landauer–B&uuml;ttiker current integration. |
+| src/bayesnegf/optimisation.py | Prior transform and log-likelihood functions for dynesty |
+| scripts/run_bayesnegf.py | Runs dynamic nested sampling on exp median I-V file in parallel. |
+| scripts/post_process.py | Slices posterior distributions and calculates the weighted I-V and T(E) and credible interval |
+| scripts/extract_parameters.py | Calculates the weighted medians, credible intervals and derived quantities of the posterior parameters  |
+| scripts/plot_corner.py | Produces the weighted corner plots of the posterior space. |
+
 
 ## Future Plans
 
