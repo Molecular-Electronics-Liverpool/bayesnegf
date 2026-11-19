@@ -16,7 +16,9 @@ This codebase currently only supports the SSH tight-binding model.
 
 ## How to Cite
 
-If you use bayesnegf or its code, please cite according to the CITATION.cff file.
+If you use bayesnegf or its code, please cite according to the CITATION.cff file or the format below:
+
+> J. M. F. Morris, and A. Vezzoli (2026). bayesnegf: A Single-Molecule Bayesian Inference Quantum Transport Package, (Version 0.1.0), https://doi.org/10.5281/zenodo.24379288
 
 
 ## Installation
