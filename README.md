@@ -41,6 +41,15 @@ pip install .
 | scripts/plot_corner.py | Produces the weighted corner plots of the posterior space. |
 
 
+## Example Usage
+
+**1. Run the sampling (args: input_file, output_dir, N_atoms)**
+python scripts/run_bayesnegf.py ./data/C8_Med.txt ./Processed 8
+
+**2. Post-process the SSH chains and generate I-V and T(E) envelopes (run with --help for slicing options)**
+python scripts/post_process.py --raw_file ./Processed/Cn_Med_RawChain.txt --save_dir ./Processed --N 8 --exp_file ./data/C8_Med.txt
+
+
 ## Future Plans
 
 **Planned extensions:**  
