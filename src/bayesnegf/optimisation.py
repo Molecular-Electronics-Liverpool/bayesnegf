@@ -1,5 +1,5 @@
 import numpy as np
-import iv as IV
+from . import iv as IV
 from . import transmission as tran
 
 def prior_transform(u, N):
