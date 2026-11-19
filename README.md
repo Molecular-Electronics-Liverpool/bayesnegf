@@ -6,7 +6,7 @@ Bayesian inference on single-molecule electronics data for quantum transport. Us
 
 ### Current Version
 
-Barebones implementation in v0.0.0 similar to the initial scripts found in our recent work.  
+Barebones implementation in v0.1.0 similar to the initial scripts found in our recent work.  
 Plans to extend this to a more user friendly general framework in the future are underway.
 This codebase currently only supports the SSH tight-binding model.
 
