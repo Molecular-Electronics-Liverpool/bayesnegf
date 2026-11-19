@@ -49,7 +49,7 @@ python scripts/run_bayesnegf.py ./data/C8_Med.txt ./Processed 8
 ```
 **2. Post-process the SSH chains and generate I-V and T(E) envelopes (run with --help for slicing options)** 
 ```bash 
-python scripts/post_process.py --raw_file ./Processed/Cn_Med_RawChain.txt --save_dir ./Processed --N 8 --exp_file ./data/C8_Med.txt
+python scripts/post_process.py --raw_file ./Processed/C8_Med_RawChain.txt --save_dir ./Processed --N 8 --exp_file ./data/C8_Med.txt
 ```
 
 
