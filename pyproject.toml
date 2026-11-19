@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesnegf"
+version = "0.1.0"
+description = "Bayesian Hamiltonian inference for single-molecule junctions using NEGF and dynamic nested sampling."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "James M. F. Morris", email = "jamesmo@liverpool.ac.uk" },
+    { name = "Andrea Vezzoli", email = "andrea.vezzoli@liverpool.ac.uk" },
+]
+dependencies = [
+    "numpy>=2.0",
+    "scipy",
+    "pandas",
+    "dynesty",
+    "tqdm",
+    "corner",
+    "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/Molecular-Electronics-Liverpool/bayesnegf"
+Repository = "https://github.com/Molecular-Electronics-Liverpool/bayesnegf"
+
+[tool.setuptools.packages.find]
+where = ["src"]
