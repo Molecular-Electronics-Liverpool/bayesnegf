@@ -34,7 +34,7 @@ pip install .
 | --- | --- |
 | src/bayesnegf/transmission.py | SSH Hamiltonian, Stark shifts, WBL self-energies, NEGF transmission function calculation. |
 | src/bayesnegf/iv.py | Landauer–B&uuml;ttiker current integration. |
-| src/bayesnegf/optimisation.py | Prior transform and log-likelihood functions for dynesty |
+| src/bayesnegf/optimisation.py | Prior transform and log-likelihood functions for `dynesty` |
 | scripts/run_bayesnegf.py | Runs dynamic nested sampling on exp median I-V file in parallel. |
 | scripts/post_process.py | Slices posterior distributions and calculates the weighted I-V and T(E) and credible interval |
 | scripts/extract_parameters.py | Calculates the weighted medians, credible intervals and derived quantities of the posterior parameters  |
