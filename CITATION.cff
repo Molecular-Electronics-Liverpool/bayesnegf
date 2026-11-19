@@ -11,5 +11,6 @@ authors:
   orcid: "https://orcid.org/0000-0002-8059-0113"
 title: "bayesnegf: A Single-Molecule Bayesian Inference Quantum Transport Package"
 version: 0.1.0
+doi: 10.5281/zenodo.24379289
 date-released: 2026-11-19
 url: "https://github.com/Molecular-Electronics-Liverpool/bayesnegf"
