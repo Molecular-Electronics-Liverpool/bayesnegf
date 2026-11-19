@@ -26,8 +26,12 @@ pip install .
 
 ## Future Plans
 
-I plan to extend the framework with the following features:
+**Planned extensions:**  
+
 * **The Single Level Model - SLM (Breit-Wigner):** The simplest model a molecular junction can take. With optional temperature dependence.
+  
 * **The 2-Level Model:** A step up from the SLM, for tracking transport gap trends.
-* **o/m/p-Benzene Model:** An abstracted model for archetypal quantum interfering systems to local DQI nodes.
+  
+* **o/m/p-Benzene Model:** An abstracted model for archetypal quantum interfering systems to locate DQI nodes.
+  
 * **Joint-Conditioning:** Enabling combinations of I-V curves, dI/dV, d2I/dV2 (from analogue sources e.g. lock-in methods), polar environments etc to improve the likelihood function and increase constraints.
