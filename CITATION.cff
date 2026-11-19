@@ -10,7 +10,6 @@ authors:
   email: "Andrea.Vezzoli@liverpool.ac.uk"
   orcid: "https://orcid.org/0000-0002-8059-0113"
 title: "bayesnegf: A Single-Molecule Bayesian Inference Quantum Transport Package"
-version: 0.0.0
-doi: 10.5281/zenodo.1234 # Placeholder doi
-date-released: 2026-11-18
+version: 0.1.0
+date-released: 2026-11-19
 url: "https://github.com/Molecular-Electronics-Liverpool/bayesnegf"
